@@ -19,14 +19,30 @@ class DocumentProcessor:
 
     def chunk_text(self):
         """Splits the text into chunks based on token count."""
+        # Split the entire text into lines using newline character as separator
         sentences = self.text.split("\n")
+        
+        # Initialize an empty list to store final chunks and a string for the current chunk
         chunks, chunk = [], ""
+        
+        # Iterate through each line (sentence) from the text
         for sentence in sentences:
+            # Calculate if adding this sentence would exceed max_tokens
+            # split() breaks the text into words, len() counts the words
+            # Checks if current chunk words + new sentence words <= max_tokens
             if len(chunk.split()) + len(sentence.split()) <= self.max_tokens:
+                # If within limit, add sentence to current chunk with a space
                 chunk += sentence + " "
             else:
+                # If would exceed limit:
+                # 1. Add current chunk (stripped of trailing spaces) to chunks list
                 chunks.append(chunk.strip())
+                # 2. Start new chunk with this sentence
                 chunk = sentence + " "
+        
+        # After loop ends, add any remaining chunk (if exists)
         if chunk:
             chunks.append(chunk.strip())
+        
+        # Return the list of all chunks
         return chunks
