@@ -1,0 +1,13 @@
+{
+    "query_id": "Q2",
+    "query_text": "What is the yearly out-of-pocket limit with Medicare Advantage?",
+    "answer": "Answer the query based only on the given context.\n\nContext:\nFor Part B-covered services, you usually pay 20% of the Medicare-approved amount after you meet your deductible. This amount is called your coinsurance.  You pay the monthly premium for Part B. If you choose to join a Medicare drug plan, you\u2019ll pay a separate premium for your Medicare drug coverage (Part D).  There\u2019s no yearly limit on what you pay out-of-pocket, unless you have supplemental coverage \u2013 like Medicare Supplement Insurance (Medigap), Medicaid, employer, retiree, or union coverage.\nPlans have a yearly limit on what you pay for covered Part A and Part B services (with different limits for in-network and out-of-network services). Once you reach your plan\u2019s limit, you\u2019ll pay nothing for covered services for the rest of the year.  You can\u2019t buy Medigap to cover your out-of-pocket costs.  **Coverage**  *Original Medicare*\n\nQuery: What is the yearly out-of-pocket limit with Medicare Advantage?\nAnswer:",
+    "source_chunks": [
+        1,
+        4
+    ],
+    "source_text": [
+        "For Part B-covered services, you usually pay 20% of the Medicare-approved amount after you meet your deductible. This amount is called your coinsurance.  You pay the monthly premium for Part B. If you choose to join a Medicare drug plan, you\u2019ll pay a separate premium for your Medicare drug coverage (Part D).  There\u2019s no yearly limit on what you pay out-of-pocket, unless you have supplemental coverage \u2013 like Medicare Supplement Insurance (Medigap), Medicaid, employer, retiree, or union coverage.",
+        "Plans have a yearly limit on what you pay for covered Part A and Part B services (with different limits for in-network and out-of-network services). Once you reach your plan\u2019s limit, you\u2019ll pay nothing for covered services for the rest of the year.  You can\u2019t buy Medigap to cover your out-of-pocket costs.  **Coverage**  *Original Medicare*"
+    ]
+}

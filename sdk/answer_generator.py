@@ -8,7 +8,7 @@ class AnswerGenerator:
     def __init__(self, query, context):
         self.query = query
         self.context = context
-        self.llm = pipeline("text-generation", model="google/flan-t5-base")
+        self.llm = pipeline("text-generation", model="google/flan-t5-base") # beside base, flan-t5-l; flan-t5-xl
 
     def generate_answer(self):
         """Generates an answer using Flan-T5."""
