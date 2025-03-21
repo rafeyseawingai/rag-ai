@@ -1,0 +1,26 @@
+[
+    {
+      "id": "Q1",
+      "text": "Can I see any doctor with Original Medicare?"
+    },
+    {
+      "id": "Q2",
+      "text": "What is the yearly out-of-pocket limit with Medicare Advantage?"
+    },
+    {
+      "id": "Q3",
+      "text": "Does Original Medicare cover routine physical exams?"
+    },
+    {
+      "id": "Q4",
+      "text": "Do I need a referral to see a specialist with Medicare Advantage?"
+    },
+    {
+      "id": "Q5",
+      "text": "Can I buy Medigap with a Medicare Advantage plan?"
+    },
+      {
+      "id": "Q6",
+      "text": "What are the costs for services with original medicare"
+    }
+]
